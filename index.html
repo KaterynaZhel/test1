@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Drobyk</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/088e8092d2.js" crossorigin="anonymous"></script>
+    <script>
+
+        function myFunction() {
+            var x = document.getElementsByClassName("tabs_items")[0];
+            if (x.style.display === "flex") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "flex";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="contant">
+            <!--header-->
+            <header>
+
+            </header>
+
+
+            <!--2 block-->
+            <!-- "Hamburger menu"  -->
+            <a href="javascript:void(0);" class="tabs-mobile-menu" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <nav class="nav">
+                <a href="#tab_01" class="tab_item">Про мене</a>
+                <a href="#tab_02" class="tab_item">Проекти</a>
+                <a href="#tab_03" class="tab_item">Навички</a>
+                <a href="#tab_04" class="tab_item">Контакти</a>
+            </nav>
+
+
+            <!--footer-->
+            <div class="footer">
+                <a href="https://www.instagram.com/" class="social_networks"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://facebook.com/" class="social_networks"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://telegram.org/" class="social_networks"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://www.linkedin.com/" class="social_networks"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
